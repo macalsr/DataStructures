@@ -1,0 +1,17 @@
+Tries - Type of tree to store char
+
+
+class Node{
+	HashMap<Character,Node> children/
+	boolean isCompleteWord;
+} 
+
+
+-- Dont look up each prefix from the root
+	-> Build on the past calls
+   By:
+   
+  	> Keeping state within trie
+  	> Return Node reference
+  	
+  
